@@ -7,7 +7,7 @@ import java.sql.SQLException;
 
 public class DBUtil {
 	private static final String USERNAME = "postgres";
-	private static final String PASSWORD = "cursjava123";
+	private static final String PASSWORD = "paroladelapostgres";
 	private static final String HOST = "localhost";
 
 	public static Connection getConnection(DBType dbType) throws SQLException {
